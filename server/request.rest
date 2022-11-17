@@ -1,0 +1,22 @@
+GET http://localhost:8000/api/admins
+
+###
+
+POST http://localhost:8000/api/admin
+Content-Type: application/json
+
+{
+  "name": "Rangga Kalam Sidiq",
+  "username": "rangga",
+  "password": "rangga123"
+}
+
+###
+
+POST http://localhost:8000/api/admin/login
+Content-Type: application/json
+
+{
+  "username": "rangga",
+  "password": "rangga123"
+}
