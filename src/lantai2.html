@@ -101,13 +101,9 @@
           <i class="fas fa-tachometer-alt mr-3"></i>
           Home
         </a>
-        <a href="blank.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
+        <a href="payment.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
           <i class="fas fa-sticky-note mr-3"></i>
           Payment
-        </a>
-        <a href="tables.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-4 pl-6 nav-item">
-          <i class="fas fa-table mr-3"></i>
-          Tables
         </a>
       </nav>
     </aside>
@@ -148,10 +144,6 @@
           <a href="blank.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
             <i class="fas fa-sticky-note mr-3"></i>
             Payment
-          </a>
-          <a href="tables.html" class="flex items-center text-white opacity-75 hover:opacity-100 py-2 pl-4 nav-item">
-            <i class="fas fa-table mr-3"></i>
-            Tables
           </a>
         </nav>
         <!-- <button class="w-full bg-white cta-btn font-semibold py-2 mt-5 rounded-br-lg rounded-bl-lg rounded-tr-lg shadow-lg hover:shadow-xl hover:bg-gray-300 flex items-center justify-center">
@@ -207,7 +199,7 @@
                   <div class="">
                     <div class="static grid grid-cols-2">
                       <div class=""></div>
-                      <button class="h-putih bg-biru h-16 w-10">B1</button>
+                      <button class="h-putih bg-biru rounded-sm h-16 w-10">B1</button>
                     </div>
                   </div>
                   <div class="row-span-2 ml-3">
@@ -292,7 +284,10 @@
               </div>
             </div>
             <div class="w-full lg:w-4/12 pl-0 lg:pl-2 mt-12 lg:mt-0">
-              <p class="text-xl flex items-center"><i class="fas fa-check mr-3"></i> Isi Data</p>
+              <div class="flex flex-row"><div class=""><p class="text-xl flex items-center"><i class="fas fa-check mr-3"></i> Isi Data</p></div>
+              <div class="w-38 bg-white ml-10"> <input type="text"> </div>
+              <button class="" type="submit"><img class="w-5 h-5 mx-3" src="img/search.png" alt=""></button>
+            </div>
               <div class="p-6 bg-hitam mt-6 rounded-2xl">
                 <div class="bg-putih rounded-2xl shadow-md box-content h-96 w-72 p-4 border-4">
                   <h1 class="text-5xl font-bold">B-6</h1>
@@ -303,16 +298,30 @@
                     <div class="ml-1 bg-kuning h-2 rounded-lg w-5 mt-5 mb-3"></div>
                     <div class="ml-1 bg-kuning h-2 rounded-lg w-5 mt-5 mb-3"></div>
                   </div>
+                  <div class="flex flex-col">
+                    <div class="flex flex-warp">
+                      <div>
+                        <p class="text-2xl">07 : 00</p>
+                        <p class="text-sm">Waktu Booking</p>
+                      </div>
+                      <div>
+                        <p class="ml-20 text-2xl">07 : 30</p>
+                        <p class="ml-14 text-sm">Perkiraan sampai</p>
+                      </div>
+                    </div>
+                    <div class="w-full bg-biru mt-5 flex flex-ro justify-around rounded-lg">
+                      <img src="img/location.png" class="mt-2 mr-2 w-8 h-8 text-blue" />
+                      <h1 class="mx- mt-1 text-4xl kuning">15</h1>
+                      <h1 class="mx- py-2 text-2xl">Min</h1>
 
-                  <div class="flex flex-warp">
-                    <div>
-                      <p class="text-2xl">07 : 00</p>
-                      <p class="text-sm">Waktu Booking</p>
                     </div>
-                    <div>
-                      <p class="ml-20 text-2xl">07 : 30</p>
-                      <p class="ml-14">Perkiraan sampai</p>
+                    <div class="w-full bg-biru mt-5 flex flex-ro justify-around rounded-lg">
+                      <img src="img/way.png" class="mt-2 mr-2 w-8 h-8 text-blue" />
+                      <h1 class="mx- mt-1 text-4xl kuning">20</h1>
+                      <h1 class="mx- py-2 text-2xl">Km</h1>
+
                     </div>
+                    <button class="px-4 py-2 bg-kuning text-white rounded-lg mt-10 mx-10" type="submit">Cancel</button>
                   </div>
                 </div>
               </div>
